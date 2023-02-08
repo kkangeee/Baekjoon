@@ -11,7 +11,6 @@ public class Main {
 			for(int j = a ; j > i ; j--) {
 				System.out.print(" ");
 			}
-			
 			//별찍기
 			for(int j = 0 ; j < i ;j++) {
 				System.out.print("*");
