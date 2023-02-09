@@ -7,7 +7,6 @@ public class Main {
 		while(true) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
-			
 			if(a+b ==0) {
 				break;
 			}
