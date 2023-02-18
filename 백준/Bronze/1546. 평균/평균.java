@@ -6,12 +6,10 @@ public class Main {
 		int a = sc.nextInt();
 		int[] arr = new int[a];
 		int sum =0;
+		int max = -1;
 		for(int i =0; i<a ; i++) {
 			arr[i] = sc.nextInt();
 			sum += arr[i];
-		}
-		int max = arr[0];
-		for(int i =1;i<a;i++) {
 			if(arr[i] > max) {
 				max = arr[i];
 			}
