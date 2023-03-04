@@ -1,25 +1,22 @@
-import java.util.*;
-public class Main {
+import java.util.Scanner;
 
+public class Main {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		int[] arr = new int[num];
-		int line = sc.nextInt();
-		for(int i=0;i<line;i++)
-		{
-			int st = sc.nextInt();
-			int end = sc.nextInt();
-			int ballnum = sc.nextInt();
-			for(int j = st-1;j<end;j++)
-			{
-				arr[j] = ballnum;
+		Scanner sc = new Scanner(System.in); 
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int[] arr = new int[a]; 
+		
+		for(int i = 0; i < b; i++) {
+			int c= sc.nextInt();
+			int d= sc.nextInt();
+			int e= sc.nextInt();
+			for(int j = c-1; j<d ; j++) {
+				arr[j] = e;
 			}
 		}
-		for(int i=0;i<arr.length;i++)
-		{
+		for(int i=0; i < arr.length ; i++) {
 			System.out.print(arr[i] + " ");
 		}
-		
 	}
-	}
+}
